@@ -124,9 +124,6 @@
 				5C95111E1D6DD326009A6809 /* RootViewController.m */,
 				5C9511271D6DD326009A6809 /* TwoDetailController.h */,
 				5C9511281D6DD326009A6809 /* TwoDetailController.m */,
-				5C9510F41D6DD2FC009A6809 /* Assets.xcassets */,
-				5C9510F61D6DD2FC009A6809 /* LaunchScreen.storyboard */,
-				5C9510F91D6DD2FC009A6809 /* Info.plist */,
 				5C9510E81D6DD2FC009A6809 /* Supporting Files */,
 			);
 			path = LXScrollerChildVC;
@@ -135,6 +132,9 @@
 		5C9510E81D6DD2FC009A6809 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C9510F41D6DD2FC009A6809 /* Assets.xcassets */,
+				5C9510F61D6DD2FC009A6809 /* LaunchScreen.storyboard */,
+				5C9510F91D6DD2FC009A6809 /* Info.plist */,
 				5C9510E91D6DD2FC009A6809 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -526,6 +526,7 @@
 				5C9511141D6DD2FC009A6809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C9511151D6DD2FC009A6809 /* Build configuration list for PBXNativeTarget "LXScrollerChildVCTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				5C9511171D6DD2FC009A6809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C9511181D6DD2FC009A6809 /* Build configuration list for PBXNativeTarget "LXScrollerChildVCUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				5C95111A1D6DD2FC009A6809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
