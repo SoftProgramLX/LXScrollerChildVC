@@ -19,13 +19,7 @@
 
 - (void)downloadData
 {
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 50)];
-    label.font = [UIFont systemFontOfSize:20];
-    label.textColor = [UIColor whiteColor];
-    label.textAlignment = NSTextAlignmentCenter;
-    label.numberOfLines = 0;
-    label.text = [NSString stringWithFormat:@"这是OneDetailController\n第 %ld 页", (long)self.index];
-    [self.view addSubview:label];
+    self.label.text = [NSString stringWithFormat:@"这是OneDetailController\n第 %ld 页", (long)self.index];
 }
 
 @end

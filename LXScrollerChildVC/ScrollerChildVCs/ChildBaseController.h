@@ -10,6 +10,7 @@
 
 @interface ChildBaseController : UIViewController
 
+@property (nonatomic, weak)   UILabel *label;
 @property (nonatomic, assign) NSInteger index;
 
 - (void)downloadData;

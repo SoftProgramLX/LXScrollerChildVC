@@ -64,10 +64,9 @@
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 {
-    // 当前的索引
+    //当前的索引
     NSInteger index = scrollView.contentOffset.x / scrollView.width;
     
-    // 取出子控制器
     if (self.controllerArray.count <= index) {
         return;
     }
