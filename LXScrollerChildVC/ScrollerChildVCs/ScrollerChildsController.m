@@ -95,9 +95,8 @@
 
 - (void)titleClick:(UIButton *)button
 {
-    [UIView animateWithDuration:0 animations:^{
-        self.contentView.contentOffset = CGPointMake(SCREEN_WIDTH*(button.tag-100), 0);
-    }];
+    self.contentView.contentOffset = CGPointMake(SCREEN_WIDTH*(button.tag-100), 0);
+
     [self selectButton:button.tag-100];
 }
 
@@ -151,7 +150,7 @@
     if (self.navigationController.navigationBar) {
         scrollY = 64;
     }
-    UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, scrollY, 375, TITLE_HEIGHT)];
+    UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, scrollY, SCREEN_WIDTH, TITLE_HEIGHT)];
     scroll.contentSize = CGSizeMake(titleWidth*_titleArray.count, TITLE_HEIGHT);
     scroll.bounces = NO;
     scroll.scrollEnabled = YES;
