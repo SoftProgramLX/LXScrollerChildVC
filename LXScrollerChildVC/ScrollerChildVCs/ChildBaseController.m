@@ -15,6 +15,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    //可以将此label删除，在子控制器里创建自己的view
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 50)];
     label.font = [UIFont systemFontOfSize:20];
     label.textColor = [UIColor whiteColor];
